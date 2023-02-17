@@ -18,6 +18,10 @@ body{
     color: #7c8798;
 }
 
+.list-item{
+    list-style: none;
+}
+
 
 .rating-btn:hover{
     color: white;
@@ -29,8 +33,13 @@ body{
     background: #7c8798;
     color: white;
 }
-
-
+.align-items-center{
+    align-items: center;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
 .flex-row{
     display: flex;
     justify-content: space-between;
@@ -43,13 +52,14 @@ body{
 
 #main-container{
     width: 90%;
-    background-color: #121417;
+    background-color: #101a29;
     margin :50% auto;
     padding: 2em 1em;
+    border-radius: 20px;
 }
 
 .margin-bottom-1em{
-    margin: 1em;
+    margin: 2em;
 }
 
 #submit-btn{
@@ -70,3 +80,16 @@ body{
     cursor: pointer;
 }
 
+
+
+/* Landing Page */
+
+
+#phone-svg{
+    margin: 0px auto;
+    width: 100%;
+}
+
+.justify-content-sp-around{
+    justify-content: space-around;
+}
