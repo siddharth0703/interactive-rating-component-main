@@ -7,6 +7,7 @@
 
 body{
     background: black;
+    font-family: 'Overpass', sans-serif;
 }
 
 .btn-all{
@@ -53,13 +54,13 @@ body{
 #main-container{
     width: 90%;
     background-color: #101a29;
-    margin :50% auto;
+    margin :0 auto;
     padding: 2em 1em;
     border-radius: 20px;
 }
 
 .margin-bottom-1em{
-    margin: 2em;
+    margin: 1em;
 }
 
 #submit-btn{
@@ -92,4 +93,30 @@ body{
 
 .justify-content-sp-around{
     justify-content: space-around;
+}
+
+#rating-text{
+    background-color: #252d37;
+    padding: 0.7em;
+    border-radius: 25px;
+    width: 80%;
+}
+
+.rating-text-clr{
+    color: #fb7413;
+}
+
+.text-align-cent{
+    text-align: center;
+}
+
+@media all and (min-width : 375px){
+    body {
+        /* background: lightgreen; */
+    }
+    #main-container{
+        margin: 10% auto;
+        max-width: 400px;
+    }
+    
 }
